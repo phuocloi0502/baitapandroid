@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button a"
+        android:background="#03A9F4"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:padding="20dp"
+        android:id="@+id/btna">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button b"
+        android:background="#4CAF50"
+        android:textSize="20dp"
+        android:layout_marginLeft="50dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/btnb"
+        android:layout_below="@+id/btna">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button c"
+        android:id="@+id/btnc"
+        android:background="#FF5722"
+        android:textSize="20dp"
+        android:layout_marginLeft="70dp"
+        android:paddingBottom="50dp"
+
+        android:layout_below="@+id/btnb">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button c"
+        android:id="@+id/btnd"
+        android:background="#F44336"
+        android:textSize="20dp"
+        android:layout_marginLeft="90dp"
+        android:paddingBottom="5dp"
+        android:layout_below="@+id/btnc">
+    </Button>
+
+</RelativeLayout>
