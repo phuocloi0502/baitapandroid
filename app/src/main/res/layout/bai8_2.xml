@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+    <TableRow>
+        <TextView android:text="Input Catalog:"
+            android:background="#FFEB3B"
+            android:textSize="20dp"
+            android:layout_span="2"></TextView>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Cate Id:"
+            android:textSize="20dp"
+            android:background="#87FF9800"></TextView>
+        <EditText android:hint="...."
+            android:textSize="20dp"></EditText>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Cate name:"
+            android:textSize="20dp"
+            android:background="#87FF9800"></TextView>
+        <EditText android:hint="...."
+            android:textSize="20dp"></EditText>
+    </TableRow>
+    <TableRow>
+       <Button android:text="Insert Cate"
+           android:layout_column="1"
+           android:textSize="20dp"
+           android:textAllCaps="false"
+           ></Button>
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TableRow>
+        <TextView android:text="Đăng nhập"
+            android:textColor="#9C27B0"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_span="4"></TextView>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="User Name:"
+            android:textSize="20dp"
+           ></TextView>
+        <EditText android:hint="input username"
+            android:textSize="20dp"
+            android:layout_span="3"></EditText>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Password:"
+            android:textSize="20dp"
+           ></TextView>
+        <EditText android:hint="input password"
+            android:textSize="20dp"
+            android:layout_span="3"></EditText>
+    </TableRow>
+    <TableRow>
+        <Button android:text="Đồng ý"
+            android:layout_column="1"
+            android:textSize="15dp"
+            ></Button>
+        <Button android:text="Hủy"
+
+            android:textSize="15dp"
+            ></Button>
+        <Button android:text="Quên Pass"
+
+            android:textSize="15dp"
+            ></Button>
+    </TableRow>
+</TableLayout>

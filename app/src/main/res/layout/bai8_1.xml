@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1,2"
+    >
+    <TableRow>
+        <Button android:text="R1 - C1"></Button>
+        <Button android:text="R1 - C2"></Button>
+        <Button android:text="R1 - C3"></Button>
+    </TableRow>
+    <TableRow>
+        <Button android:text="R2 - C1"></Button>
+        <Button android:text="R2 - C2"></Button>
+    </TableRow>
+    <TableRow>
+        <Button android:text="R3 - C2"
+            android:layout_column="1"></Button>
+        <Button android:text="R3 - C3"></Button>
+    </TableRow>
+    <TableRow>
+        <Button android:text="R4 - C1"></Button>
+        <Button android:text="R4 - C3"
+            android:layout_column="2"></Button>
+    </TableRow>
+    <TableRow>
+        <Button android:text="R5"
+            android:layout_span="3"></Button>
+    </TableRow>
+</TableLayout>
